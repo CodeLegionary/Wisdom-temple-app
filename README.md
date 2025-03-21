@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-Wisdom Temple è un'app meditativa progettata per aiutarti a rilassare, trovare il tuo equilibrio e praticare consapevolezza. Include un timer settabile per eventuali sessioni di meditazione predefinite.
+Wisdom Temple è un'app meditativa progettata per aiutarti a rilassare, trovare il tuo equilibrio e praticare consapevolezza. Include un timer programmabile per eventuali sessioni di meditazione predefinite.
 
 ## Tecnologie
 
