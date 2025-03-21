@@ -26,7 +26,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
             cursor: "pointer",
           }}
         >
-          Close
+          OK
         </button>
       </div>
     </div>
