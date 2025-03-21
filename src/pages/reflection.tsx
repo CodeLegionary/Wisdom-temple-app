@@ -93,7 +93,7 @@ const generateInspiration = () => {
             cursor: "pointer",
             }}
         >
-            Unlock Ideas
+            Unlock New Ideas
         </button>
         <p>{extraInspiration || "Press above to be inspired/humbled!"}</p>
         </div>
