@@ -18,9 +18,13 @@
         height: 210px;
         width: 107px;
     }
-    input {
-        font-size: 0.7rem;
+
+    input{
+        font-size: 0.9rem;
         padding: 0;
+    }
+    input::placeholder {
+        font-size: 0.7rem;
     }
 }
 
