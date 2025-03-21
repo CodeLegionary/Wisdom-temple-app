@@ -12,11 +12,11 @@
     max-width: 330px;
 }
 
-@media (max-width: 380px) {
+@media screen and (max-width: 380px) {
     .timer {
         flex-direction: column;
         height: 210px;
-        width: 100%;
+        width: 107px;
     }
 
     input{
