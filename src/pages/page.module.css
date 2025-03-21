@@ -1,10 +1,10 @@
 body {
     background-color: navy;
-    background-image: url("../assets/sky1.png"); /* Percorso dell'immagine */
-    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
-    background-position: center; /* Centra l'immagine */
-    background-size: cover; /* Adatta l'immagine per coprire l'intera area */
-    background-attachment: fixed; /* Mantieni l'immagine fissa durante lo scorrimento */
+    background-image: url("../assets/sky1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* adapts the image to cover whole area */
+    background-attachment: fixed; /* does no allow overflow of the image itself */
 }
 
 p {
