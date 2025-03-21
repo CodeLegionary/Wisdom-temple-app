@@ -6,7 +6,7 @@ Wisdom Temple è un'app meditativa progettata per aiutarti a rilassare, trovare 
 
 ## Tecnologie
 
-React, Typescript, Vite, React-Router-Dom, Lodash, CSS.
+JS, React, Typescript, Vite, React-Router-Dom, Lodash, CSS, HTML, SEO.
 
 ## Caratteristiche
 
