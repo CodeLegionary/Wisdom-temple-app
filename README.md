@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# React README - TSX Vite Meditation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+Wisdom Temple è un'app meditativa progettata per aiutarti a rilassare, trovare il tuo equilibrio e praticare consapevolezza. Include un timer settabile per eventuali sessioni di meditazione predefinite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+Alcune delle caratteristiche principali:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Timer in modalità classica (i.e. countdown) indipendente per ogni singola pagina, e che agisce in sinergia con gli altri elementi.
+- Notifiche sonore e vocali al termine del countdown (consiglio: controlla il volume sia attivato sul dispositivo).
+- Interfaccia completa, con navigazione gestita tramite React-Router-Dom e file _redirects.
+- Home molto semplice e intuitiva per facilitare gli utenti da tutti i dispositivi, e fornire informazioni sulle singole pagine.
+- Il sito è sviluppato in un inglese accessibile per raggiungere quanti più utenti possibili.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Seguire le istruzioni di installazione qualora si volesse usufruire di una versione offline dell'app.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Clona il repository
+git clone https://github.com/tuo-repository/wisdom-temple.git
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Accedi alla directory del progetto
+cd wisdom-temple
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Installa le dipendenze
+npm install
+
+### Avvia il server di sviluppo
+npm run dev
+
+## Distribution
+
+### Deployment
+Il sito è disponibile su [Netlify](https://wisdom-temple.netlify.app/), e include piccoli accorgimenti per il redirect contenuti nell'apposito file _redirects. In questo modo si risolvono possibili errori 404 in fase di navigazione.
