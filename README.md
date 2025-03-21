@@ -20,7 +20,7 @@ Alcune delle caratteristiche principali:
 
 ## Installation
 
-Seguire le istruzioni di installazione qualora si volesse usufruire di una versione offline dell'app.
+Seguire le seguenti istruzioni per installare e usufruire di una versione offline dell'app.
 
 ### Clona il repository
 ```sh
@@ -45,4 +45,4 @@ npm run dev
 ## Distribution
 
 ### Deployment
-Il sito è disponibile su [Netlify](https://wisdom-temple.netlify.app/), e include piccoli accorgimenti per il redirect contenuti nell'apposito file _redirects. In questo modo si risolvono possibili errori 404 in fase di navigazione.
+Il sito è disponibile su [Netlify](https://wisdom-temple.netlify.app/), e include piccoli accorgimenti per il redirect contenuti nell'apposito file _redirects. In questo modo si evitano potenziali errori 404 in fase di navigazione.
