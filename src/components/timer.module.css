@@ -1,0 +1,68 @@
+.timer {
+    display: flex; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 180px;          /* Adjust height for better spacing */
+    padding: 1rem;          /* Add inner spacing */
+    border: 2px solid #2b2d42; /* Add a border for a structured look */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #edf2f4; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 330px;
+}
+
+@media (max-width: 380px) {
+    .timer {
+        flex-direction: column;
+        height: 210px;
+        width: 107px;
+    }
+}
+
+.time {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin: 0.5rem 0;
+    background-color: #8a93ef;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.timer h2 {
+    margin: 4px 4px;
+    font-size: 1.5rem;
+    color: #2b2d42;
+    padding: 0;
+}
+
+.timer button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+    background-color: #2b2d42; /* Primary button color */
+    color: #ffffff;           /* Text color */
+    border: none;
+    border-radius: 5px;       /* Rounded button corners */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button {padding: 15px;}
+
+.timer button:hover {
+    background-color: #8d99ae; /* Change on hover for interactivity */
+}
+
+.timer button:focus {
+    outline: none;            /* Remove default browser outline */
+    box-shadow: 1px 1px 2px #8d99ae; /* Subtle focus effect */
+}
+
+@media (min-width: 380px) {
+    .timer {
+        min-height: 80px;
+    }
+}
