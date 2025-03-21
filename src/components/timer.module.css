@@ -18,6 +18,14 @@
         height: 210px;
         width: 107px;
     }
+    input {
+        font-size: 0.9rem;
+    }
+}
+
+input {
+    font-size: 1.1rem;
+    max-width: 69px;
 }
 
 .time {

@@ -71,7 +71,6 @@ const Timer = ({ color }: TimerProps) => {
           placeholder="00:00:00"
           value={inputTime}
           onChange={handleInputChange}
-          style= {{ maxWidth: "69px", fontSize: "1.1rem"}}
         />
         <button onClick={handleSetTime}>Set&nbsp;&#x231b;</button>
       </div>
