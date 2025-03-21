@@ -1,4 +1,5 @@
 body {
+    background-color: navy;
     background-image: url("../assets/sky1.png"); /* Percorso dell'immagine */
     background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
     background-position: center; /* Centra l'immagine */
