@@ -19,10 +19,10 @@ Alcune delle caratteristiche principali:
 Seguire le istruzioni di installazione qualora si volesse usufruire di una versione offline dell'app.
 
 ### Clona il repository
-git clone https://github.com/tuo-repository/wisdom-temple.git
+git clone https://github.com/CodeLegionary/Wisdom-temple-app.git
 
 ### Accedi alla directory del progetto
-cd wisdom-temple
+cd wisdom-temple-app
 
 ### Installa le dipendenze
 npm install
