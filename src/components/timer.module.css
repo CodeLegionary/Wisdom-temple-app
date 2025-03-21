@@ -16,12 +16,13 @@
     .timer {
         flex-direction: column;
         height: 210px;
-        width: 107px;
+        width: 100%;
     }
 
     input{
         font-size: 0.9rem;
         padding: 0;
+        box-sizing: border-box;
         width: 100%;
     }
     input::placeholder {
