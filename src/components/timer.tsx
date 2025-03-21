@@ -68,7 +68,7 @@ const Timer = ({ color }: TimerProps) => {
       <div>
         <input
           type="text"
-          placeholder="00:00:00"
+          placeholder="0:00:00"
           value={inputTime}
           onChange={handleInputChange}
         />
